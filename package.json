@@ -2,11 +2,6 @@
   "name": "react-firebase",
   "author": "lasfito",
   "version": "0.1.0",
-  "description": "Versión modificada de  [Create React App](https://github.com/facebook/create-react-app) con menos relleno y con punto de entrada para Firebase.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lasfito/react-firebase.git"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -41,6 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://github.com/lasfito/react-firebase#readme"
+  }
 }

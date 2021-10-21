@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//Importamos la aplicación/credenciales
+import firebaseApp from "./firebase/credenciales";
+
+// Conforme se necesite, importar los demás servicios y funciones. Por ejemplo:
+
+/* import { getAuth, onAuthStateChanged } from "firebase/auth";
+const auth = getAuth(firebaseApp); */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p style={{ color: "black" }}>Hola</p>
+      <button> ¡Buenas!</button>
     </div>
   );
 }
